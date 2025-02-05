@@ -1,0 +1,49 @@
+@startuml
+!theme plain
+
+entity "Student" as Student {
+  + RollNumber: int [PK]
+  --
+  Name: varchar
+  Image: blob
+}
+
+entity "Incident" as Incident {
+  + IncidentID: int [PK]
+  --
+  Timestamp: datetime
+  CameraName: varchar
+  BehaviourDetected: varchar
+  StudentID: int [FK]
+  Evidence_Photo: blob
+}
+
+entity "Movement_Tracking" as Movement_Tracking {
+  + MovementID: int [PK]
+  --
+  Timestamp: datetime
+  CameraName: varchar
+  StudentID: int [FK]
+  IncidentID: int [FK]
+}
+
+entity "Login" as Login {
+  + Username: varchar [PK]
+  --
+  Password: varchar
+}
+
+entity "Reports" as Reports {
+  + ReportID: int [PK]
+  --
+  Filename: varchar
+  Filetype: varchar
+  GeneratedDate: datetime
+  Description: varchar
+}
+
+Student ||--o{ Incident : "has"
+Student ||--o{ Movement_Tracking : "has"
+Incident ||--o{ Movement_Tracking : "generates & tracks"
+
+@enduml

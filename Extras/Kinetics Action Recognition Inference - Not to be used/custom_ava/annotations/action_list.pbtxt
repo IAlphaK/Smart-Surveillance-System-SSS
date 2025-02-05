@@ -1,0 +1,12 @@
+item {
+  name: "Background"
+  id: 0
+}
+item {
+  name: "Smoking"
+  id: 1
+}
+item {
+  name: "Fighting"
+  id: 2
+}

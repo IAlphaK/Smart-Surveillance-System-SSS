@@ -1,0 +1,24 @@
+12/04 00:31:58 - mmengine - INFO - Epoch(train)  [9][20/39]  lr: 9.0546e-05  eta: 1:01:14  time: 3.0414  data_time: 0.1109  memory: 10079  grad_norm: 1.9840  loss: 0.0560  recall@thr=0.5: 1.0000  prec@thr=0.5: 1.0000  recall@top1: 1.0000  prec@top1: 1.0000  loss_action_cls: 0.0560
+12/04 00:32:53 - mmengine - INFO - Exp name: hpc_20241204_001128
+12/04 00:32:53 - mmengine - INFO - Epoch(train)  [9][39/39]  lr: 9.0546e-05  eta: 1:00:11  time: 2.8978  data_time: 0.0141  memory: 10092  grad_norm: 0.6673  loss: 0.0429  recall@thr=0.5: 1.0000  prec@thr=0.5: 1.0000  recall@top1: 1.0000  prec@top1: 1.0000  loss_action_cls: 0.0429
+12/04 00:32:53 - mmengine - INFO - Saving checkpoint at 9 epochs
+12/04 00:33:05 - mmengine - INFO - Epoch(val)  [9][20/66]    eta: 0:00:07  time: 0.1625  data_time: 0.0075  memory: 807
+12/04 00:33:09 - mmengine - INFO - Epoch(val)  [9][40/66]    eta: 0:00:04  time: 0.1664  data_time: 0.0043  memory: 829
+12/04 00:33:12 - mmengine - INFO - Epoch(val)  [9][60/66]    eta: 0:00:00  time: 0.1642  data_time: 0.0034  memory: 807
+==> 0.00305033 seconds to Reading GT results
+==> 0.00668001 seconds to Reading Detection results
+==> 0.774432 seconds to Calculating TP/FP
+==> 0.00390387 seconds to Run Evaluator
+Per-class results:
+Index: 1, Action: Smoking: AP: 0.4434;
+Index: 2, Action: Fighting: AP: 0.7573;
+Overall Results:
+Overall mAP: 0.6003
+Person Movement mAP: 0.6003
+Object Manipulation mAP: nan
+Person Interaction mAP: nan
+Class Smoking AP: 0.4434
+Class Fighting AP: 0.7573
+12/04 00:33:14 - mmengine - INFO - Epoch(val) [9][66/66]    mAP/overall: 0.6003  mAP/person_movement: 0.6003  mAP/object_manipulation: nan  mAP/person_interaction: nan  data_time: 0.0048  time: 0.1643
+12/04 00:33:14 - mmengine - INFO - The previous best checkpoint /home/i200623/mmaction2/work_dirs/hpc/best_mAP_overall_epoch_8.pth is removed
+12/04 00:33:18 - mmengine - INFO - The best checkpoint with 0.6003 mAP/overall at 9 epoch is saved to best_mAP_overall_epoch_9.pth.

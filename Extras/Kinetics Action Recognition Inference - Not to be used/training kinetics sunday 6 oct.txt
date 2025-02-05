@@ -1,0 +1,172 @@
+10/06 21:22:22 - mmengine - INFO - Epoch(val) [1][2/2]    acc/top1: 0.6226  acc/top5: 1.0000  acc/mean1: 0.4716  data_time: 5.9149  time: 7.8961
+10/06 21:22:23 - mmengine - INFO - The best checkpoint with 0.6226 acc/top1 at 1 epoch is saved to best_acc_top1_epoch_1.pth.
+10/06 21:25:44 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:25:44 - mmengine - INFO - Epoch(train)  [2][8/8]  lr: 5.0000e-03  eta: 2:53:26  time: 27.0990  data_time: 2.5950  memory: 8160  grad_norm: 4.4686  loss: 0.8929  top1_acc: 0.6087  top5_acc: 1.0000  loss_cls: 0.8929
+10/06 21:25:52 - mmengine - INFO - Epoch(val) [2][2/2]    acc/top1: 0.6226  acc/top5: 1.0000  acc/mean1: 0.6703  data_time: 1.4593  time: 3.2758
+10/06 21:29:15 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:29:15 - mmengine - INFO - Epoch(train)  [3][8/8]  lr: 5.0000e-03  eta: 2:46:16  time: 24.7404  data_time: 0.8715  memory: 8160  grad_norm: 4.8259  loss: 0.7674  top1_acc: 0.6087  top5_acc: 1.0000  loss_cls: 0.7674
+10/06 21:29:15 - mmengine - INFO - Saving checkpoint at 3 epochs
+10/06 21:29:25 - mmengine - INFO - Epoch(val) [3][2/2]    acc/top1: 0.7547  acc/top5: 1.0000  acc/mean1: 0.7754  data_time: 1.5166  time: 3.3564
+10/06 21:29:25 - mmengine - INFO - The previous best checkpoint C:\Users\alpha\mmaction2\work_dirs\tsn_r50_custom\best_acc_top1_epoch_1.pth is removed
+10/06 21:29:25 - mmengine - INFO - The best checkpoint with 0.7547 acc/top1 at 3 epoch is saved to best_acc_top1_epoch_3.pth.
+10/06 21:32:51 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:32:51 - mmengine - INFO - Epoch(train)  [4][8/8]  lr: 5.0000e-03  eta: 2:41:19  time: 25.1232  data_time: 1.0262  memory: 8160  grad_norm: 4.9167  loss: 0.5773  top1_acc: 0.7391  top5_acc: 1.0000  loss_cls: 0.5773
+10/06 21:32:59 - mmengine - INFO - Epoch(val) [4][2/2]    acc/top1: 0.7547  acc/top5: 1.0000  acc/mean1: 0.8140  data_time: 1.3277  time: 3.1595
+10/06 21:36:19 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:36:19 - mmengine - INFO - Epoch(train)  [5][8/8]  lr: 5.0000e-03  eta: 2:36:11  time: 24.9025  data_time: 0.9396  memory: 8160  grad_norm: 5.0213  loss: 0.4494  top1_acc: 0.8696  top5_acc: 1.0000  loss_cls: 0.4494
+10/06 21:36:27 - mmengine - INFO - Epoch(val) [5][2/2]    acc/top1: 0.7547  acc/top5: 1.0000  acc/mean1: 0.8158  data_time: 1.4296  time: 3.2718
+10/06 21:39:48 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:39:48 - mmengine - INFO - Epoch(train)  [6][8/8]  lr: 5.0000e-03  eta: 2:31:49  time: 24.6691  data_time: 0.8635  memory: 8160  grad_norm: 4.9000  loss: 0.3515  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.3515
+10/06 21:39:48 - mmengine - INFO - Saving checkpoint at 6 epochs
+10/06 21:39:58 - mmengine - INFO - Epoch(val) [6][2/2]    acc/top1: 0.6792  acc/top5: 1.0000  acc/mean1: 0.7560  data_time: 1.4817  time: 3.3180
+10/06 21:43:23 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:43:23 - mmengine - INFO - Epoch(train)  [7][8/8]  lr: 5.0000e-03  eta: 2:28:09  time: 24.9601  data_time: 0.9135  memory: 8160  grad_norm: 4.9861  loss: 0.3098  top1_acc: 0.8696  top5_acc: 1.0000  loss_cls: 0.3098
+10/06 21:43:31 - mmengine - INFO - Epoch(val) [7][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.3996  time: 3.2168
+10/06 21:43:31 - mmengine - INFO - The previous best checkpoint C:\Users\alpha\mmaction2\work_dirs\tsn_r50_custom\best_acc_top1_epoch_3.pth is removed
+10/06 21:43:32 - mmengine - INFO - The best checkpoint with 0.8113 acc/top1 at 7 epoch is saved to best_acc_top1_epoch_7.pth.
+10/06 21:47:01 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:47:01 - mmengine - INFO - Epoch(train)  [8][8/8]  lr: 5.0000e-03  eta: 2:24:54  time: 25.3673  data_time: 0.9660  memory: 8160  grad_norm: 4.8588  loss: 0.2694  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.2694
+10/06 21:47:10 - mmengine - INFO - Epoch(val) [8][2/2]    acc/top1: 0.7358  acc/top5: 1.0000  acc/mean1: 0.7989  data_time: 1.4113  time: 3.2482
+10/06 21:50:29 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:50:29 - mmengine - INFO - Epoch(train)  [9][8/8]  lr: 5.0000e-03  eta: 2:20:50  time: 25.1659  data_time: 0.8271  memory: 8160  grad_norm: 4.7562  loss: 0.2445  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.2445
+10/06 21:50:29 - mmengine - INFO - Saving checkpoint at 9 epochs
+10/06 21:50:38 - mmengine - INFO - Epoch(val) [9][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.4139  time: 3.2335
+10/06 21:53:53 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:53:53 - mmengine - INFO - Epoch(train) [10][8/8]  lr: 5.0000e-03  eta: 2:16:43  time: 24.7777  data_time: 0.8178  memory: 8160  grad_norm: 4.8652  loss: 0.2314  top1_acc: 0.8261  top5_acc: 1.0000  loss_cls: 0.2314
+10/06 21:54:01 - mmengine - INFO - Epoch(val) [10][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8442  data_time: 1.2804  time: 3.1255
+10/06 21:57:14 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 21:57:14 - mmengine - INFO - Epoch(train) [11][8/8]  lr: 5.0000e-03  eta: 2:12:35  time: 24.1253  data_time: 0.7963  memory: 8160  grad_norm: 4.6776  loss: 0.2007  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.2007
+10/06 21:57:22 - mmengine - INFO - Epoch(val) [11][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2871  time: 3.0578
+10/06 22:00:52 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:00:52 - mmengine - INFO - Epoch(train) [12][8/8]  lr: 5.0000e-03  eta: 2:09:30  time: 24.6759  data_time: 0.7575  memory: 8160  grad_norm: 4.4550  loss: 0.1748  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.1748
+10/06 22:00:52 - mmengine - INFO - Saving checkpoint at 12 epochs
+10/06 22:01:01 - mmengine - INFO - Epoch(val) [12][2/2]    acc/top1: 0.7736  acc/top5: 1.0000  acc/mean1: 0.8303  data_time: 1.3957  time: 3.2350
+10/06 22:04:38 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:04:38 - mmengine - INFO - Epoch(train) [13][8/8]  lr: 5.0000e-03  eta: 2:06:39  time: 25.7984  data_time: 0.6432  memory: 8160  grad_norm: 4.2046  loss: 0.1496  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.1496
+10/06 22:04:46 - mmengine - INFO - Epoch(val) [13][2/2]    acc/top1: 0.7736  acc/top5: 1.0000  acc/mean1: 0.8297  data_time: 1.3698  time: 3.1980
+10/06 22:08:25 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:08:25 - mmengine - INFO - Epoch(train) [14][8/8]  lr: 5.0000e-03  eta: 2:03:50  time: 26.9952  data_time: 0.5917  memory: 8160  grad_norm: 4.1403  loss: 0.1356  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.1356
+10/06 22:08:33 - mmengine - INFO - Epoch(val) [14][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8454  data_time: 1.3845  time: 3.1903
+10/06 22:12:16 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:12:16 - mmengine - INFO - Epoch(train) [15][8/8]  lr: 5.0000e-03  eta: 2:01:02  time: 27.1907  data_time: 0.7158  memory: 8160  grad_norm: 4.2576  loss: 0.1265  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.1265
+10/06 22:12:16 - mmengine - INFO - Saving checkpoint at 15 epochs
+10/06 22:12:27 - mmengine - INFO - Epoch(val) [15][2/2]    acc/top1: 0.7170  acc/top5: 1.0000  acc/mean1: 0.7856  data_time: 1.8237  time: 3.7624
+10/06 22:16:13 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:16:13 - mmengine - INFO - Epoch(train) [16][8/8]  lr: 5.0000e-03  eta: 1:58:12  time: 27.5790  data_time: 0.8561  memory: 8160  grad_norm: 3.7523  loss: 0.1052  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.1052
+10/06 22:16:23 - mmengine - INFO - Epoch(val) [16][2/2]    acc/top1: 0.7170  acc/top5: 1.0000  acc/mean1: 0.7856  data_time: 2.0187  time: 3.9176
+10/06 22:20:12 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:20:12 - mmengine - INFO - Epoch(train) [17][8/8]  lr: 5.0000e-03  eta: 1:55:24  time: 27.9827  data_time: 1.0634  memory: 8160  grad_norm: 4.0241  loss: 0.1100  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.1100
+10/06 22:20:20 - mmengine - INFO - Epoch(val) [17][2/2]    acc/top1: 0.7736  acc/top5: 1.0000  acc/mean1: 0.8303  data_time: 1.3691  time: 3.2369
+10/06 22:24:06 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:24:06 - mmengine - INFO - Epoch(train) [18][8/8]  lr: 5.0000e-03  eta: 1:52:22  time: 27.9247  data_time: 1.0140  memory: 8160  grad_norm: 4.0162  loss: 0.1048  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.1048
+10/06 22:24:06 - mmengine - INFO - Saving checkpoint at 18 epochs
+10/06 22:24:18 - mmengine - INFO - Epoch(val) [18][2/2]    acc/top1: 0.7547  acc/top5: 1.0000  acc/mean1: 0.8152  data_time: 2.3785  time: 4.2423
+10/06 22:27:58 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:27:58 - mmengine - INFO - Epoch(train) [19][8/8]  lr: 5.0000e-03  eta: 1:49:06  time: 27.4896  data_time: 0.9476  memory: 8160  grad_norm: 4.6592  loss: 0.1202  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.1202
+10/06 22:28:09 - mmengine - INFO - Epoch(val) [19][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 2.1936  time: 4.0730
+10/06 22:31:50 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:31:50 - mmengine - INFO - Epoch(train) [20][8/8]  lr: 5.0000e-03  eta: 1:45:50  time: 27.2354  data_time: 0.9459  memory: 8160  grad_norm: 4.1806  loss: 0.0977  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.0977
+10/06 22:32:01 - mmengine - INFO - Epoch(val) [20][2/2]    acc/top1: 0.8302  acc/top5: 1.0000  acc/mean1: 0.8726  data_time: 2.1784  time: 4.0554
+10/06 22:32:01 - mmengine - INFO - The previous best checkpoint C:\Users\alpha\mmaction2\work_dirs\tsn_r50_custom\best_acc_top1_epoch_7.pth is removed
+10/06 22:32:02 - mmengine - INFO - The best checkpoint with 0.8302 acc/top1 at 20 epoch is saved to best_acc_top1_epoch_20.pth.
+10/06 22:35:47 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:35:47 - mmengine - INFO - Epoch(train) [21][8/8]  lr: 5.0000e-04  eta: 1:42:36  time: 27.3272  data_time: 0.9522  memory: 8160  grad_norm: 3.9049  loss: 0.0948  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.0948
+10/06 22:35:47 - mmengine - INFO - Saving checkpoint at 21 epochs
+10/06 22:35:58 - mmengine - INFO - Epoch(val) [21][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 2.0887  time: 3.9450
+10/06 22:39:49 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:39:49 - mmengine - INFO - Epoch(train) [22][8/8]  lr: 5.0000e-04  eta: 1:39:27  time: 27.8664  data_time: 1.0121  memory: 8160  grad_norm: 3.7893  loss: 0.0997  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.0997
+10/06 22:40:01 - mmengine - INFO - Epoch(val) [22][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 2.5479  time: 4.5461
+10/06 22:44:08 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:44:08 - mmengine - INFO - Epoch(train) [23][8/8]  lr: 5.0000e-04  eta: 1:36:33  time: 28.9849  data_time: 1.0785  memory: 8160  grad_norm: 3.4460  loss: 0.0878  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0878
+10/06 22:44:19 - mmengine - INFO - Epoch(val) [23][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 2.2611  time: 4.1612
+10/06 22:48:06 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:48:06 - mmengine - INFO - Epoch(train) [24][8/8]  lr: 5.0000e-04  eta: 1:33:13  time: 29.0283  data_time: 1.1033  memory: 8160  grad_norm: 3.5972  loss: 0.0954  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.0954
+10/06 22:48:06 - mmengine - INFO - Saving checkpoint at 24 epochs
+10/06 22:48:18 - mmengine - INFO - Epoch(val) [24][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 2.2379  time: 4.1255
+10/06 22:51:59 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:51:59 - mmengine - INFO - Epoch(train) [25][8/8]  lr: 5.0000e-04  eta: 1:29:43  time: 28.1374  data_time: 1.0776  memory: 8160  grad_norm: 3.6242  loss: 0.0926  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.0926
+10/06 22:52:07 - mmengine - INFO - Epoch(val) [25][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.3114  time: 3.1528
+10/06 22:55:40 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:55:40 - mmengine - INFO - Epoch(train) [26][8/8]  lr: 5.0000e-04  eta: 1:26:05  time: 26.9046  data_time: 0.9005  memory: 8160  grad_norm: 3.6397  loss: 0.0999  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0999
+10/06 22:55:47 - mmengine - INFO - Epoch(val) [26][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.2751  time: 3.0850
+10/06 22:59:22 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 22:59:22 - mmengine - INFO - Epoch(train) [27][8/8]  lr: 5.0000e-04  eta: 1:22:30  time: 26.3790  data_time: 0.8452  memory: 8160  grad_norm: 3.5222  loss: 0.1006  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.1006
+10/06 22:59:22 - mmengine - INFO - Saving checkpoint at 27 epochs
+10/06 22:59:32 - mmengine - INFO - Epoch(val) [27][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.2865  time: 3.1186
+10/06 23:03:05 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:03:05 - mmengine - INFO - Epoch(train) [28][8/8]  lr: 5.0000e-04  eta: 1:18:53  time: 26.3634  data_time: 0.8891  memory: 8160  grad_norm: 3.3182  loss: 0.0941  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0941
+10/06 23:03:13 - mmengine - INFO - Epoch(val) [28][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.2837  time: 3.0803
+10/06 23:06:45 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:06:45 - mmengine - INFO - Epoch(train) [29][8/8]  lr: 5.0000e-04  eta: 1:15:16  time: 26.1894  data_time: 0.7056  memory: 8160  grad_norm: 3.1448  loss: 0.0785  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0785
+10/06 23:06:52 - mmengine - INFO - Epoch(val) [29][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8575  data_time: 1.2765  time: 3.0437
+10/06 23:10:29 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:10:29 - mmengine - INFO - Epoch(train) [30][8/8]  lr: 5.0000e-04  eta: 1:11:42  time: 26.3397  data_time: 0.7492  memory: 8160  grad_norm: 2.6409  loss: 0.0584  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0584
+10/06 23:10:29 - mmengine - INFO - Saving checkpoint at 30 epochs
+10/06 23:10:38 - mmengine - INFO - Epoch(val) [30][2/2]    acc/top1: 0.8302  acc/top5: 1.0000  acc/mean1: 0.8720  data_time: 1.3883  time: 3.2043
+10/06 23:14:13 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:14:13 - mmengine - INFO - Epoch(train) [31][8/8]  lr: 5.0000e-04  eta: 1:08:06  time: 26.4985  data_time: 0.9206  memory: 8160  grad_norm: 2.8107  loss: 0.0610  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.0610
+10/06 23:14:20 - mmengine - INFO - Epoch(val) [31][2/2]    acc/top1: 0.8302  acc/top5: 1.0000  acc/mean1: 0.8720  data_time: 1.3128  time: 3.0784
+10/06 23:17:53 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:17:53 - mmengine - INFO - Epoch(train) [32][8/8]  lr: 5.0000e-04  eta: 1:04:30  time: 26.3140  data_time: 0.8383  memory: 8160  grad_norm: 3.5002  loss: 0.0877  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.0877
+10/06 23:18:00 - mmengine - INFO - Epoch(val) [32][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2703  time: 3.0390
+10/06 23:21:34 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:21:34 - mmengine - INFO - Epoch(train) [33][8/8]  lr: 5.0000e-04  eta: 1:00:54  time: 26.2390  data_time: 0.7916  memory: 8160  grad_norm: 3.2741  loss: 0.0804  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0804
+10/06 23:21:34 - mmengine - INFO - Saving checkpoint at 33 epochs
+10/06 23:21:42 - mmengine - INFO - Epoch(val) [33][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2798  time: 3.1004
+10/06 23:25:15 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:25:15 - mmengine - INFO - Epoch(train) [34][8/8]  lr: 5.0000e-04  eta: 0:57:18  time: 26.2130  data_time: 0.7636  memory: 8160  grad_norm: 2.9680  loss: 0.0656  top1_acc: 0.9130  top5_acc: 1.0000  loss_cls: 0.0656
+10/06 23:25:22 - mmengine - INFO - Epoch(val) [34][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2803  time: 3.1195
+10/06 23:28:55 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:28:55 - mmengine - INFO - Epoch(train) [35][8/8]  lr: 5.0000e-04  eta: 0:53:42  time: 26.1865  data_time: 0.7272  memory: 8160  grad_norm: 3.2464  loss: 0.0775  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.0775
+10/06 23:29:03 - mmengine - INFO - Epoch(val) [35][2/2]    acc/top1: 0.8302  acc/top5: 1.0000  acc/mean1: 0.8720  data_time: 1.3051  time: 3.0707
+10/06 23:32:36 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:32:36 - mmengine - INFO - Epoch(train) [36][8/8]  lr: 5.0000e-04  eta: 0:50:07  time: 26.2472  data_time: 0.7963  memory: 8160  grad_norm: 3.2839  loss: 0.0758  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0758
+10/06 23:32:36 - mmengine - INFO - Saving checkpoint at 36 epochs
+10/06 23:32:45 - mmengine - INFO - Epoch(val) [36][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2663  time: 3.1077
+10/06 23:36:17 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:36:17 - mmengine - INFO - Epoch(train) [37][8/8]  lr: 5.0000e-04  eta: 0:46:31  time: 26.1902  data_time: 0.7427  memory: 8160  grad_norm: 2.8788  loss: 0.0635  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0635
+10/06 23:36:25 - mmengine - INFO - Epoch(val) [37][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2824  time: 3.1087
+10/06 23:39:58 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:39:58 - mmengine - INFO - Epoch(train) [38][8/8]  lr: 5.0000e-04  eta: 0:42:56  time: 26.2003  data_time: 0.7637  memory: 8160  grad_norm: 3.2396  loss: 0.0685  top1_acc: 0.9565  top5_acc: 1.0000  loss_cls: 0.0685
+10/06 23:40:06 - mmengine - INFO - Epoch(val) [38][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.3032  time: 3.1417
+10/06 23:43:38 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:43:38 - mmengine - INFO - Epoch(train) [39][8/8]  lr: 5.0000e-04  eta: 0:39:20  time: 26.1957  data_time: 0.7637  memory: 8160  grad_norm: 3.6083  loss: 0.0808  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0808
+10/06 23:43:38 - mmengine - INFO - Saving checkpoint at 39 epochs
+10/06 23:43:46 - mmengine - INFO - Epoch(val) [39][2/2]    acc/top1: 0.7736  acc/top5: 1.0000  acc/mean1: 0.8291  data_time: 1.2880  time: 3.1252
+10/06 23:47:20 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:47:20 - mmengine - INFO - Epoch(train) [40][8/8]  lr: 5.0000e-04  eta: 0:35:45  time: 26.1800  data_time: 0.7431  memory: 8160  grad_norm: 3.1641  loss: 0.0687  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0687
+10/06 23:47:27 - mmengine - INFO - Epoch(val) [40][2/2]    acc/top1: 0.7736  acc/top5: 1.0000  acc/mean1: 0.8291  data_time: 1.2695  time: 3.1066
+10/06 23:51:00 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:51:00 - mmengine - INFO - Epoch(train) [41][8/8]  lr: 5.0000e-05  eta: 0:32:10  time: 26.2212  data_time: 0.7921  memory: 8160  grad_norm: 2.5373  loss: 0.0556  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0556
+10/06 23:51:08 - mmengine - INFO - Epoch(val) [41][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2663  time: 3.0363
+10/06 23:54:41 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:54:41 - mmengine - INFO - Epoch(train) [42][8/8]  lr: 5.0000e-05  eta: 0:28:35  time: 26.2139  data_time: 0.7828  memory: 8160  grad_norm: 2.3575  loss: 0.0484  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0484
+10/06 23:54:41 - mmengine - INFO - Saving checkpoint at 42 epochs
+10/06 23:54:49 - mmengine - INFO - Epoch(val) [42][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.2554  time: 3.0536
+10/06 23:58:23 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/06 23:58:23 - mmengine - INFO - Epoch(train) [43][8/8]  lr: 5.0000e-05  eta: 0:25:01  time: 26.2887  data_time: 0.8469  memory: 8160  grad_norm: 2.2698  loss: 0.0475  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0475
+10/06 23:58:31 - mmengine - INFO - Epoch(val) [43][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.2538  time: 3.0218
+10/07 00:02:06 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/07 00:02:06 - mmengine - INFO - Epoch(train) [44][8/8]  lr: 5.0000e-05  eta: 0:21:26  time: 26.3749  data_time: 0.8919  memory: 8160  grad_norm: 2.5437  loss: 0.0557  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0557
+10/07 00:02:13 - mmengine - INFO - Epoch(val) [44][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2810  time: 3.0496
+10/07 00:05:45 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/07 00:05:45 - mmengine - INFO - Epoch(train) [45][8/8]  lr: 5.0000e-05  eta: 0:17:52  time: 26.2410  data_time: 0.7408  memory: 8160  grad_norm: 3.1316  loss: 0.0681  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0681
+10/07 00:05:45 - mmengine - INFO - Saving checkpoint at 45 epochs
+10/07 00:05:54 - mmengine - INFO - Epoch(val) [45][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.2638  time: 3.0590
+10/07 00:09:28 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/07 00:09:28 - mmengine - INFO - Epoch(train) [46][8/8]  lr: 5.0000e-05  eta: 0:14:17  time: 26.2179  data_time: 0.7457  memory: 8160  grad_norm: 2.9231  loss: 0.0587  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0587
+10/07 00:09:35 - mmengine - INFO - Epoch(val) [46][2/2]    acc/top1: 0.7925  acc/top5: 1.0000  acc/mean1: 0.8436  data_time: 1.2647  time: 3.0616
+10/07 00:13:09 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/07 00:13:09 - mmengine - INFO - Epoch(train) [47][8/8]  lr: 5.0000e-05  eta: 0:10:43  time: 26.3385  data_time: 0.9096  memory: 8160  grad_norm: 3.1606  loss: 0.0618  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0618
+10/07 00:13:17 - mmengine - INFO - Epoch(val) [47][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2596  time: 3.0692
+10/07 00:16:49 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/07 00:16:49 - mmengine - INFO - Epoch(train) [48][8/8]  lr: 5.0000e-05  eta: 0:07:08  time: 26.2462  data_time: 0.8052  memory: 8160  grad_norm: 3.2706  loss: 0.0716  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0716
+10/07 00:16:49 - mmengine - INFO - Saving checkpoint at 48 epochs
+10/07 00:16:58 - mmengine - INFO - Epoch(val) [48][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2607  time: 3.0906
+10/07 00:20:30 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/07 00:20:30 - mmengine - INFO - Epoch(train) [49][8/8]  lr: 5.0000e-05  eta: 0:03:34  time: 26.1362  data_time: 0.7100  memory: 8160  grad_norm: 3.0294  loss: 0.0702  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0702
+10/07 00:20:37 - mmengine - INFO - Epoch(val) [49][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2653  time: 3.0290
+10/07 00:24:12 - mmengine - INFO - Exp name: tsn_r50_custom_20241006_211808
+10/07 00:24:12 - mmengine - INFO - Epoch(train) [50][8/8]  lr: 5.0000e-05  eta: 0:00:00  time: 26.2489  data_time: 0.8229  memory: 8160  grad_norm: 2.6551  loss: 0.0589  top1_acc: 1.0000  top5_acc: 1.0000  loss_cls: 0.0589
+10/07 00:24:12 - mmengine - INFO - Saving checkpoint at 50 epochs
+10/07 00:24:20 - mmengine - INFO - Epoch(val) [50][2/2]    acc/top1: 0.8113  acc/top5: 1.0000  acc/mean1: 0.8581  data_time: 1.2920  time: 3.1090

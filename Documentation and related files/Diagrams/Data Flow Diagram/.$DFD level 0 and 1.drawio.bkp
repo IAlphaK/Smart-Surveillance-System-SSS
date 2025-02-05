@@ -1,0 +1,145 @@
+<mxfile host="Electron" modified="2024-03-19T16:20:53.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6wsMHQ81PNdPH--wvd5w" version="24.0.4" type="device">
+  <diagram name="Page-1" id="QCUvSHSon6UQ36mXcVAS">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-1" value="Alert and Notification System" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="604" width="126" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-2" value="Facial Recognition" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-3" value="Behavior Analysis and Detection" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="376" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-4" value="Security Staff" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="740" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-5" value="Students" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296.5" y="290" width="77" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-6" value="Request Data" style="startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.042;entryY=0.25;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-4" target="SZVBKInjuu3frVkjO_rQ-25">
+          <mxGeometry x="0.1105" y="4" relative="1" as="geometry">
+            <mxPoint x="473" y="840.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-7" value="Detected Behavior" style="startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-3" target="SZVBKInjuu3frVkjO_rQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-8" value="Incident Alert" style="curved=1;startArrow=none;endArrow=block;exitX=0.434;exitY=1.007;entryX=0.49935301786624126;entryY=0.009804220760569853;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-1" target="SZVBKInjuu3frVkjO_rQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-9" value="Incident Record" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-2">
+          <mxGeometry x="-0.0123" y="6" relative="1" as="geometry">
+            <mxPoint x="604" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-10" value="Report Parameters" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-25" target="SZVBKInjuu3frVkjO_rQ-28">
+          <mxGeometry x="-0.2266" y="8" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="597.1314657603575" y="866" as="sourcePoint" />
+            <mxPoint x="723.1263100130957" y="836" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-11" value="Stored Incident" style="startArrow=none;endArrow=block;entryX=0.327;entryY=0.019;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SZVBKInjuu3frVkjO_rQ-25">
+          <mxGeometry x="-0.1359" y="-31" relative="1" as="geometry">
+            <mxPoint x="604" y="660" as="sourcePoint" />
+            <mxPoint x="625.5401371914018" y="832" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.628;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-2" target="SZVBKInjuu3frVkjO_rQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-13" value="Identified Individual" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZVBKInjuu3frVkjO_rQ-12">
+          <mxGeometry x="0.0522" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-14" value="" style="shape=link;html=1;rounded=0;width=35;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="599" y="640" as="sourcePoint" />
+            <mxPoint x="699" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-15" value="Incidents Data Store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZVBKInjuu3frVkjO_rQ-14">
+          <mxGeometry x="0.0544" y="16" relative="1" as="geometry">
+            <mxPoint y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-5" target="SZVBKInjuu3frVkjO_rQ-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="892" y="433" as="sourcePoint" />
+            <mxPoint x="604" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-17" value="Student Activity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZVBKInjuu3frVkjO_rQ-16">
+          <mxGeometry x="0.3079" relative="1" as="geometry">
+            <mxPoint x="15" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-20" target="SZVBKInjuu3frVkjO_rQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-19" value="Video Feed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZVBKInjuu3frVkjO_rQ-18">
+          <mxGeometry x="-0.2632" y="-2" relative="1" as="geometry">
+            <mxPoint x="12" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-20" value="SSS&#39;s CCTV Live Monitoring" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="376" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-25" target="SZVBKInjuu3frVkjO_rQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-22" value="Report and Summaries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZVBKInjuu3frVkjO_rQ-21">
+          <mxGeometry x="-0.3114" y="1" relative="1" as="geometry">
+            <mxPoint x="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.675;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="694" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-24" value="Data Management Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZVBKInjuu3frVkjO_rQ-23">
+          <mxGeometry x="0.1965" relative="1" as="geometry">
+            <mxPoint x="30" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-25" value="SSS&#39;s Web Interface" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-28" target="SZVBKInjuu3frVkjO_rQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-27" value="Report" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZVBKInjuu3frVkjO_rQ-26">
+          <mxGeometry x="0.1578" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-28" value="Generate Reports" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="714" y="750" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZVBKInjuu3frVkjO_rQ-31" target="SZVBKInjuu3frVkjO_rQ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-30" value="Summaries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SZVBKInjuu3frVkjO_rQ-29">
+          <mxGeometry x="-0.1389" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZVBKInjuu3frVkjO_rQ-31" value="Generate Summaries" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="654" y="880" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

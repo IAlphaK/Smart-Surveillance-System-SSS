@@ -1,0 +1,5 @@
+10/07 01:18:37 - mmengine - INFO - Epoch(test) [53/53]    acc/top1: 0.7736  acc/top5: 1.0000  acc/mean1: 0.8297  confusion_matrix/result:
+tensor([[ 6,  0,  0],
+        [ 0, 18,  6],
+        [ 0,  6, 17]])
+  data_time: 0.2321  time: 1.1596

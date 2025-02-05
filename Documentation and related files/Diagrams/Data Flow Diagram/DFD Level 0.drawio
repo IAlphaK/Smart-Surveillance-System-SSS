@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2024-03-27T19:16:06.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ewXUcTXmSQrlKEz9dI0x" version="24.1.0" type="device">
+  <diagram name="Page-1" id="sQfKykEK--kFVzY2zXGL">
+    <mxGraphModel dx="698" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-1" value="SSS&#39;s System" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="510" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-2" value="Security Staff" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="150" y="550" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-3" value="Students" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="472" y="410" width="77" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-4" value="Request Data" style="startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.092;entryY=0.802;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="S0aivpT3pXKUnEyWVLe5-2" target="S0aivpT3pXKUnEyWVLe5-1" edge="1">
+          <mxGeometry x="-0.0022" y="-9" relative="1" as="geometry">
+            <mxPoint x="473" y="840.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-5" value="Incident Alert and Summaries" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;rounded=0;exitDx=0;exitDy=0;" parent="1" source="S0aivpT3pXKUnEyWVLe5-1" edge="1">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="328.68399999999997" y="670.462" as="sourcePoint" />
+            <mxPoint x="270" y="550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-6" value="Incident Record" style="startArrow=none;endArrow=block;exitX=0.96;exitY=0.707;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="S0aivpT3pXKUnEyWVLe5-1" edge="1">
+          <mxGeometry x="0.0465" y="-12" relative="1" as="geometry">
+            <mxPoint x="750" y="567" as="targetPoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="581.4899999999999" y="567.24" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-7" value="Stored Incident" style="startArrow=none;endArrow=block;entryX=0.96;entryY=0.304;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="S0aivpT3pXKUnEyWVLe5-1" edge="1">
+          <mxGeometry x="-0.0366" y="-11" relative="1" as="geometry">
+            <mxPoint x="750" y="533" as="sourcePoint" />
+            <mxPoint x="583.785" y="540.8" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-8" value="" style="shape=link;html=1;rounded=0;width=35;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="750" y="550" as="sourcePoint" />
+            <mxPoint x="850" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-9" value="Incidents Data Store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0aivpT3pXKUnEyWVLe5-8" vertex="1" connectable="0">
+          <mxGeometry x="0.0544" y="16" relative="1" as="geometry">
+            <mxPoint y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;exitDx=0;exitDy=0;" parent="1" source="S0aivpT3pXKUnEyWVLe5-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="892" y="433" as="sourcePoint" />
+            <mxPoint x="510" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S0aivpT3pXKUnEyWVLe5-11" value="Student Activity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="S0aivpT3pXKUnEyWVLe5-10" vertex="1" connectable="0">
+          <mxGeometry x="0.3079" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
